@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="pantalla">
+                <input id="pantalla" value="" disabled>
+            </div>
+
+            <div class="botones">
+                <div class="boton">
+                    <button id="nro0">0</button>
+                </div>
+
+                <div class="boton">
+                    <button id="nro1">1</button>
+                </div>
+
+                <div class="boton">
+                    <button id="nro2">2</button>
+                </div>
+
+                <div class="boton">
+                    <button id="nro3">3</button>
+                </div>
+
+                <div class="boton">
+                    <button id="nro4">4</button>
+                </div>
+
+                <div class="boton">
+                    <button id="nro5">5</button>
+                </div>
+
+                <div class="boton">
+                    <button id="nro6">6</button>
+                </div>
+
+                <div class="boton">
+                    <button id="nro7">7</button>
+                </div>
+
+                <div class="boton">
+                    <button id="nro8">8</button>
+                </div>
+
+                <div class="boton">
+                    <button id="nro9">9</button>
+                </div>
+
+                <div class="boton">
+                    <button id="suma">+</button>
+                </div>
+
+                <div class="boton">
+                    <button id="resta">-</button>
+                </div>
+
+                <div class="boton">
+                    <button id="multiplicacion">*</button>
+                </div>
+
+                <div class="boton">
+                    <button id="division">/</button>
+                </div>
+
+                <div class="boton">
+                    <button onclick="ejecutarOperacion()"  id="igual">=</button>
+                </div>
+
+                <div class="boton">
+                    <button onclick="limpiarPantalla()" id="borrar">C</button>
+                </div>
+
+                
+                
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
